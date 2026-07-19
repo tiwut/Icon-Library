@@ -5,8 +5,6 @@ A completely custom, built-from-scratch collection of **300 free icons** created
 ## Licensing
 These icons were **100% hand-crafted from the ground up using custom SVG paths** without using any third-party library (like Lucide, Feather, or others). 
 
-Because they were completely generated uniquely for you, they have **zero copyright or licensing attachments**. They are entirely yours to use forever in any MIT-licensed commercial or open-source project. No attribution required!
-
 ## Dark Mode Theme (Sample)
 *Designed for dark backgrounds (Stroke: `#FFFFFF`)*
 
