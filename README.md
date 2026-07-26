@@ -1,6 +1,6 @@
 # Icon Library
 
-A completely custom, built-from-scratch collection of **300 free icons** created for Dark Mode and Light Mode!
+A completely custom, built-from-scratch collection of **300 free icons** created for Dark Mode, Light Mode, and 12 distinct color variations!
 
 ## Licensing
 These icons were **100% hand-crafted from the ground up using custom SVG paths** without using any third-party library (like Lucide, Feather, or others). 
@@ -23,7 +23,14 @@ These icons were **100% hand-crafted from the ground up using custom SVG paths**
 | ![Menu](lightmode/menu.svg) | `menu` | ![Menu X](lightmode/menu-x.svg) | `menu-x` | ![Search](lightmode/search.svg) | `search` | ![Search Circle](lightmode/search-circle.svg) | `search-circle` |
 | ![Camera](lightmode/camera.svg) | `camera` | ![Image](lightmode/image.svg) | `image` | ![Folder](lightmode/folder.svg) | `folder` | ![Folder Minus](lightmode/folder-minus.svg) | `folder-minus` |
 
+## Colored Themes (Sample)
+*Available in `red`, `green`, `blue`, `orange`, `pink`, `gold`, `yellow`, `gray`, `light-blue`, `light-red`, `light-green`, and `light-pink`!*
+
+| Icon | Name | Icon | Name | Icon | Name | Icon | Name |
+| :---: | :--- | :---: | :--- | :---: | :--- | :---: | :--- |
+| ![Home Red](red/home.svg) | `home (red)` | ![User Blue](blue/user.svg) | `user (blue)` | ![Check Green](green/check.svg) | `check (green)` | ![Star Gold](gold/star.svg) | `star (gold)` |
+
 ## Usage
-1. Open either the `darkmode/` or `lightmode/` folders.
+1. Open the `darkmode/`, `lightmode/`, or one of the color folders (e.g., `red/`, `blue/`).
 2. Search for the icon you need (there are 300 custom variations in each!).
 3. Copy the `.svg` file directly into your UI project.
