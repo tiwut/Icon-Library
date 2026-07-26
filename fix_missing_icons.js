@@ -1,7 +1,6 @@
 const lucide = require('lucide');
 const allKeys = Object.keys(lucide.icons);
 
-// --- REPRODUCE ORIGINAL 300 ICONS ---
 const originalCount = 300;
 const originalCommon = ['Home', 'User', 'Settings', 'Search', 'Menu', 'Heart', 'Star', 'Check', 'Bell', 'Calendar', 'Camera', 'Mail', 'Phone', 'Image', 'Trash', 'Edit', 'Save', 'Upload', 'Download', 'Link', 'Lock', 'Eye', 'Info'];
 const originalIcons = [];
@@ -29,20 +28,17 @@ while (originalIcons.length < originalCount && idx < allKeys.length) {
 
 console.log("Original 300 icons count:", originalIcons.length);
 
-// --- GENERATE 800 ICONS PRESERVING ORIGINAL 300 ---
 const targetCount = 800;
 const newCommon = ['Home', 'User', 'Settings', 'Search', 'Menu', 'Heart', 'Star', 'Check', 'Bell', 'Calendar', 'Camera', 'Mail', 'Phone', 'Image', 'Trash', 'Edit', 'Save', 'Upload', 'Download', 'Link', 'Lock', 'Eye', 'Info', 'Cpu', 'Computer', 'Gpu', 'Microchip', 'HardDrive', 'Server', 'Database', 'Cloud', 'Network', 'Router', 'MemoryStick', 'Terminal', 'Monitor', 'GitBranch', 'Branch', 'TreePine', 'TreeDeciduous', 'Leaf', 'Plant', 'Gamepad', 'Headphones', 'Speaker', 'Mic', 'Video', 'Film', 'Music'];
 
-const finalIcons = [...originalIcons]; // Start with the exact 300 original icons
+const finalIcons = [...originalIcons];
 
-// Add new specific icons requested
 for (const c of newCommon) {
   if (allKeys.includes(c) && !finalIcons.includes(c)) {
     finalIcons.push(c);
   }
 }
 
-// Fill the rest up to 800 using the new step logic if needed
 const step800 = Math.floor(allKeys.length / targetCount);
 for (let i = 0; i < allKeys.length && finalIcons.length < targetCount; i += step800) {
   if (!finalIcons.includes(allKeys[i])) {

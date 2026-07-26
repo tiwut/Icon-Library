@@ -27,7 +27,6 @@ const common = ['Cpu', 'Computer', 'Gpu', 'Microchip', 'HardDrive', 'Server', 'D
 
 const availableIcons = [];
 
-// Try adding requested ones first
 for (const c of common) {
   if (allKeys.includes(c)) {
     const filename = c.replace(/([a-z0-9])([A-Z])/g, '$1-$2').toLowerCase() + '.svg';
@@ -37,7 +36,6 @@ for (const c of common) {
   }
 }
 
-// Fill the rest until we hit 500 new ones
 let idx = 0;
 while (availableIcons.length < targetCount && idx < allKeys.length) {
   const c = allKeys[idx];

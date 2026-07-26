@@ -32,12 +32,10 @@ const itemsPerPage = 20;
 const totalPages = Math.ceil(files.length / itemsPerPage);
 const outDir = path.join(__dirname, 'ALL_ICONS');
 
-// Cleanup old ALL_ICONS.md if it exists
 if (fs.existsSync(path.join(__dirname, 'ALL_ICONS.md'))) {
   fs.unlinkSync(path.join(__dirname, 'ALL_ICONS.md'));
 }
 
-// Create ALL_ICONS folder
 if (!fs.existsSync(outDir)) {
   fs.mkdirSync(outDir, { recursive: true });
 }
@@ -57,9 +55,9 @@ function getPaginationLinks(currentPage, totalPages) {
 for (let i = 0; i < totalPages; i++) {
   const pageNumber = i + 1;
   const chunk = files.slice(i * itemsPerPage, (i + 1) * itemsPerPage);
-  
+
   let md = `# Full Icon Catalog - Page ${pageNumber}\n\n`;
-  
+
   const nav = getPaginationLinks(pageNumber, totalPages);
   md += `${nav}\n\n`;
 
