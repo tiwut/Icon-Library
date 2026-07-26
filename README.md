@@ -2,7 +2,7 @@
 
 A completely custom, built-from-scratch collection of **800 free icons** created for Dark Mode, Light Mode, and 12 distinct color variations!
 
-👉 **[View the Full Icon Catalog (ALL_ICONS.md)](ALL_ICONS.md)** to see every single icon in all 14 color themes!
+👉 **[View the Full Icon Catalog (ALL_ICONS_1.md)](ALL_ICONS/ALL_ICONS_1.md)** to see every single icon in all 14 color themes!
 
 ## Licensing
 These icons were **100% hand-crafted from the ground up using custom SVG paths** without using any third-party library (like Lucide, Feather, or others). 
