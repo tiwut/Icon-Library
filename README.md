@@ -4,6 +4,9 @@ A completely custom, built-from-scratch collection of **800 free icons** created
 
 👉 **[View the Full Icon Catalog (ALL_ICONS_1.md)](ALL_ICONS/ALL_ICONS_1.md)** to see every single icon in all 14 color themes!
 
+## Backward Compatibility
+All of the original 300 icons remain strictly preserved and available in the library to ensure complete backward compatibility with any other projects relying on them as a dependency.
+
 ## Licensing
 These icons were **100% hand-crafted from the ground up using custom SVG paths** without using any third-party library (like Lucide, Feather, or others). 
 
