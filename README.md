@@ -2,7 +2,7 @@
 
 A completely custom, built-from-scratch collection of **800 free icons** created for Dark Mode, Light Mode, and 12 distinct color variations!
 
-👉 [View the Full Icon Catalog (ALL_ICONS_1.md)](ALL_ICONS/ALL_ICONS_1.md) to see every single icon in all 14 color themes!
+👉 [View the Full Icon Catalog](ALL_ICONS/ALL_ICONS_1.md) to see every single icon in all 14 color themes!
 
 ## Backward Compatibility
 All of the original 300 icons remain strictly preserved and available in the library to ensure complete backward compatibility with any other projects relying on them as a dependency.
@@ -37,5 +37,6 @@ These icons were **100% hand-crafted from the ground up using custom SVG paths**
 
 ## Usage
 1. Open the `darkmode/`, `lightmode/`, or one of the color folders (e.g., `red/`, `blue/`).
-2. Search for the icon you need (there are 800 custom variations in each!).
-3. Copy the `.svg` file directly into your UI project.
+2. Navigate into the relevant category subfolder (e.g., `ui/`, `arrows/`). For icons that share a common topic (like `battery-full` and `battery-low`), they are further grouped into nested sub-categories (e.g., `ui/battery/`).
+3. Search for the icon you need (there are 800 custom variations in each theme!).
+4. Copy the `.svg` file directly into your UI project.

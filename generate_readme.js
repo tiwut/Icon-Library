@@ -7,7 +7,21 @@ if (!fs.existsSync(srcDir)) {
   process.exit(1);
 }
 
-const files = fs.readdirSync(srcDir).filter(f => f.endsWith('.svg'));
+function getFilesRecursively(dir) {
+  let results = [];
+  const list = fs.readdirSync(dir, { withFileTypes: true });
+  list.forEach(file => {
+    const fullPath = path.join(dir, file.name);
+    if (file.isDirectory()) {
+      results = results.concat(getFilesRecursively(fullPath));
+    } else if (file.name.endsWith('.svg')) {
+      results.push(path.relative(srcDir, fullPath).replace(/\\/g, '/'));
+    }
+  });
+  return results;
+}
+
+const files = getFilesRecursively(srcDir);
 files.sort((a, b) => a.localeCompare(b));
 
 const columns = [
