@@ -15,25 +15,25 @@ These icons were **100% hand-crafted from the ground up using custom SVG paths**
 
 | Icon | Name | Icon | Name | Icon | Name | Icon | Name |
 | :---: | :--- | :---: | :--- | :---: | :--- | :---: | :--- |
-| ![Home](darkmode/home.svg) | `home` | ![Home Plus](darkmode/home-plus.svg) | `home-plus` | ![User](darkmode/user.svg) | `user` | ![User Check](darkmode/user-check.svg) | `user-check` |
-| ![Menu](darkmode/menu.svg) | `menu` | ![Menu X](darkmode/menu-x.svg) | `menu-x` | ![Search](darkmode/search.svg) | `search` | ![Search Circle](darkmode/search-circle.svg) | `search-circle` |
-| ![Camera](darkmode/camera.svg) | `camera` | ![Image](darkmode/image.svg) | `image` | ![Folder](darkmode/folder.svg) | `folder` | ![Folder Minus](darkmode/folder-minus.svg) | `folder-minus` |
+| ![Home](darkmode/others/home.svg) | `home` | ![Home Plus](darkmode/ui/home/home-plus.svg) | `home-plus` | ![User](darkmode/communication/user/user.svg) | `user` | ![User Check](darkmode/communication/user/user-check.svg) | `user-check` |
+| ![Menu](darkmode/ui/menu/menu.svg) | `menu` | ![Menu X](darkmode/ui/menu/menu-x.svg) | `menu-x` | ![Search](darkmode/ui/search/search.svg) | `search` | ![Search Circle](darkmode/ui/search/search-circle.svg) | `search-circle` |
+| ![Camera](darkmode/media/camera/camera.svg) | `camera` | ![Image](darkmode/media/image/image.svg) | `image` | ![Folder](darkmode/files/folder/folder.svg) | `folder` | ![Folder Minus](darkmode/files/folder/folder-minus.svg) | `folder-minus` |
 
 ## Light Mode Theme (Sample)
 *Designed for light backgrounds (Stroke: `#000000`)*
 
 | Icon | Name | Icon | Name | Icon | Name | Icon | Name |
 | :---: | :--- | :---: | :--- | :---: | :--- | :---: | :--- |
-| ![Home](lightmode/home.svg) | `home` | ![Home Plus](lightmode/home-plus.svg) | `home-plus` | ![User](lightmode/user.svg) | `user` | ![User Check](lightmode/user-check.svg) | `user-check` |
-| ![Menu](lightmode/menu.svg) | `menu` | ![Menu X](lightmode/menu-x.svg) | `menu-x` | ![Search](lightmode/search.svg) | `search` | ![Search Circle](lightmode/search-circle.svg) | `search-circle` |
-| ![Camera](lightmode/camera.svg) | `camera` | ![Image](lightmode/image.svg) | `image` | ![Folder](lightmode/folder.svg) | `folder` | ![Folder Minus](lightmode/folder-minus.svg) | `folder-minus` |
+| ![Home](lightmode/others/home.svg) | `home` | ![Home Plus](lightmode/ui/home/home-plus.svg) | `home-plus` | ![User](lightmode/communication/user/user.svg) | `user` | ![User Check](lightmode/communication/user/user-check.svg) | `user-check` |
+| ![Menu](lightmode/ui/menu/menu.svg) | `menu` | ![Menu X](lightmode/ui/menu/menu-x.svg) | `menu-x` | ![Search](lightmode/ui/search/search.svg) | `search` | ![Search Circle](lightmode/ui/search/search-circle.svg) | `search-circle` |
+| ![Camera](lightmode/media/camera/camera.svg) | `camera` | ![Image](lightmode/media/image/image.svg) | `image` | ![Folder](lightmode/files/folder/folder.svg) | `folder` | ![Folder Minus](lightmode/files/folder/folder-minus.svg) | `folder-minus` |
 
 ## Colored Themes (Sample)
 *Available in `red`, `green`, `blue`, `orange`, `pink`, `gold`, `yellow`, `gray`, `light-blue`, `light-red`, `light-green`, and `light-pink`!*
 
 | Icon | Name | Icon | Name | Icon | Name | Icon | Name |
 | :---: | :--- | :---: | :--- | :---: | :--- | :---: | :--- |
-| ![Home Red](red/home.svg) | `home (red)` | ![User Blue](blue/user.svg) | `user (blue)` | ![Check Green](green/check.svg) | `check (green)` | ![Star Gold](gold/star.svg) | `star (gold)` |
+| ![Home Red](red/others/home.svg) | `home (red)` | ![User Blue](blue/communication/user/user.svg) | `user (blue)` | ![Check Green](green/ui/check/check.svg) | `check (green)` | ![Star Gold](gold/ui/star/star.svg) | `star (gold)` |
 
 ## Usage
 1. Open the `darkmode/`, `lightmode/`, or one of the color folders (e.g., `red/`, `blue/`).
