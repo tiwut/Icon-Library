@@ -24,11 +24,11 @@ function getSvg(iconName, strokeColor) {
 }
 
 const allKeys = Object.keys(lucide.icons);
-const targetCount = 300;
+const targetCount = 800;
 
 const availableIcons = [];
 
-const common = ['Home', 'User', 'Settings', 'Search', 'Menu', 'Heart', 'Star', 'Check', 'Bell', 'Calendar', 'Camera', 'Mail', 'Phone', 'Image', 'Trash', 'Edit', 'Save', 'Upload', 'Download', 'Link', 'Lock', 'Eye', 'Info'];
+const common = ['Home', 'User', 'Settings', 'Search', 'Menu', 'Heart', 'Star', 'Check', 'Bell', 'Calendar', 'Camera', 'Mail', 'Phone', 'Image', 'Trash', 'Edit', 'Save', 'Upload', 'Download', 'Link', 'Lock', 'Eye', 'Info', 'Cpu', 'Computer', 'Gpu', 'Microchip', 'HardDrive', 'Server', 'Database', 'Cloud', 'Network', 'Router', 'MemoryStick', 'Terminal', 'Monitor', 'GitBranch', 'Branch', 'TreePine', 'TreeDeciduous', 'Leaf', 'Plant', 'Gamepad', 'Headphones', 'Speaker', 'Mic', 'Video', 'Film', 'Music'];
 
 for (const c of common) {
   if (allKeys.includes(c) && !availableIcons.includes(c)) {

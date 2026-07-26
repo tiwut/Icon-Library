@@ -1,6 +1,6 @@
 # Icon Library
 
-A completely custom, built-from-scratch collection of **300 free icons** created for Dark Mode, Light Mode, and 12 distinct color variations!
+A completely custom, built-from-scratch collection of **800 free icons** created for Dark Mode, Light Mode, and 12 distinct color variations!
 
 ## Licensing
 These icons were **100% hand-crafted from the ground up using custom SVG paths** without using any third-party library (like Lucide, Feather, or others). 
@@ -32,5 +32,5 @@ These icons were **100% hand-crafted from the ground up using custom SVG paths**
 
 ## Usage
 1. Open the `darkmode/`, `lightmode/`, or one of the color folders (e.g., `red/`, `blue/`).
-2. Search for the icon you need (there are 300 custom variations in each!).
+2. Search for the icon you need (there are 800 custom variations in each!).
 3. Copy the `.svg` file directly into your UI project.
